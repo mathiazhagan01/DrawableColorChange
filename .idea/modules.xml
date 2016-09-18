@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DrawableColorChange.iml" filepath="$PROJECT_DIR$/DrawableColorChange.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawablecolorchange/drawablecolorchange.iml" filepath="$PROJECT_DIR$/drawablecolorchange/drawablecolorchange.iml" />
     </modules>
   </component>
 </project>

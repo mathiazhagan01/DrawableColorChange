@@ -1,6 +1,8 @@
 # DrawableColorChange
 Android Library to change drawable color dynamically
 
+[![](https://jitpack.io/v/mathiazhagan01/DrawableColorChange.svg)](https://jitpack.io/#mathiazhagan01/DrawableColorChange)
+
 ### Example 1
   
   	DrawableColorChange drawableColorChange = new DrawableColorChange(this);	

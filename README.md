@@ -3,6 +3,8 @@ Android Library to change drawable color dynamically
 
 [![](https://jitpack.io/v/mathiazhagan01/DrawableColorChange.svg)](https://jitpack.io/#mathiazhagan01/DrawableColorChange)
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-DrawableColorChange-green.svg?style=true)](https://android-arsenal.com/details/3/4353)
+
 ### Gradle
 
 #### Step 1. Add the JitPack repository to your build file

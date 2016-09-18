@@ -38,7 +38,15 @@ Android Library to change drawable color dynamically
 	      <artifactId>DrawableColorChange</artifactId>
 	      <version>1.0</version>
 	  </dependency>
-	
+
+### Before changing color
+
+![Screenshot](./before.png)
+
+### After changing color
+
+![Screenshot](./after.png)
+
 ### Example 1
   
   	DrawableColorChange drawableColorChange = new DrawableColorChange(this);	

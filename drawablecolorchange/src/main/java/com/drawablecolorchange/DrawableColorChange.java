@@ -41,10 +41,10 @@ public class DrawableColorChange {
 
     public Drawable changeColor() {
         if (drawable == null) {
-            throw null;
+            throw new NullPointerException("Drawable is null. Please set drawable by setDrawable() method");
         }
         if (color == null) {
-            throw null;
+            throw new NullPointerException("Color is null. Please set color by setColor() or setColorResID() method");
         }
         drawable.setColorFilter(new PorterDuffColorFilter(color, PorterDuff.Mode.SRC_IN));
         return drawable;
@@ -52,7 +52,7 @@ public class DrawableColorChange {
 
     public Drawable getColorChangeDrawable() {
         if (drawable == null) {
-            throw null;
+            throw new NullPointerException("Drawable is null. Please set drawable by setDrawable() method");
         }
         return drawable;
     }

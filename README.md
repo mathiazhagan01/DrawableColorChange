@@ -19,7 +19,7 @@ Android Library to change drawable color dynamically
 #### Step 2. Add the dependency
     
     dependencies {
-	        compile 'com.github.mathiazhagan01:DrawableColorChange:1.0'
+	        compile 'com.github.mathiazhagan01:DrawableColorChange:1.2'
 	  }
 	  
 ### Maven
@@ -38,7 +38,7 @@ Android Library to change drawable color dynamically
 	  <dependency>
 	      <groupId>com.github.mathiazhagan01</groupId>
 	      <artifactId>DrawableColorChange</artifactId>
-	      <version>1.0</version>
+	      <version>1.2</version>
 	  </dependency>
 
 ### Before changing color
@@ -56,7 +56,7 @@ Android Library to change drawable color dynamically
   	drawableColorChange.setDrawable(R.drawable.icon);
   	drawableColorChange.setColorResId(R.color.colorAccent);
   	drawableColorChange.changeColor();
-  	Drawable drawable = drawableColorChange.getColorChangeDrawable();
+  	Drawable drawable = drawableColorChange.getColorChangedDrawable();
   	ImageView imageView = (ImageView) findViewById(R.id.image);
   	imageView.setImageDrawable(drawable);
   

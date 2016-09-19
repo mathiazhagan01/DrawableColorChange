@@ -50,11 +50,16 @@ public class DrawableColorChange {
         return drawable;
     }
 
-    public Drawable getColorChangeDrawable() {
+    public Drawable getColorChangedDrawable() {
         if (drawable == null) {
             throw new NullPointerException("Drawable is null. Please set drawable by setDrawable() method");
         }
         return drawable;
+    }
+
+    @Deprecated
+    public Drawable getColorChangeDrawable() {
+        return getColorChangedDrawable();
     }
 
     public Drawable changeColorById(@DrawableRes Integer drawableResId, @ColorRes Integer colorResId) {

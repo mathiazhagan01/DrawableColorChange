@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             drawableColorChange.setDrawable(R.drawable.ic_search_white_48dp);
             drawableColorChange.setColorResId(R.color.pink);
             drawableColorChange.changeColor();
-            drawable = drawableColorChange.getColorChangeDrawable();
+            drawable = drawableColorChange.getColorChangedDrawable();
             search.setImageDrawable(drawable);
 
             drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.ic_share_white_48dp, null);
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             editText.setCompoundDrawablesWithIntrinsicBounds(null, null, drawableColorChange.changeColorById(R.drawable.ic_clear_white_48dp, android.R.color.black), null);
 
         } catch (NullPointerException e) {
-            Log.v("Exception", "Null");
+            Log.v("NullPointerException", e.getLocalizedMessage());
         }
     }
 }

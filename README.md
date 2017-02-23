@@ -67,9 +67,9 @@ Android Library to change drawable color dynamically
 ### Example 3
   
   	drawableColorChange.setDrawable(R.drawable.icon);
-        drawableColorChange.setColorResId(R.color.colorAccent);
-        Bitmap bitmap = drawableColorChange.getColorChangedBitmap();
-        imageView.setImageBitmap(bitmap);
+	drawableColorChange.setColorResId(R.color.colorAccent);
+	Bitmap bitmap = drawableColorChange.getColorChangedBitmap();
+	imageView.setImageBitmap(bitmap);
   	
 ### LICENSE
 

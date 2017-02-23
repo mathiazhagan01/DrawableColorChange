@@ -66,15 +66,12 @@ public class MainActivity extends AppCompatActivity {
         try {
             drawableColorChange.setDrawable(R.drawable.ic_search_white_48dp);
             drawableColorChange.setColorResId(R.color.pink);
-            drawableColorChange.changeColor();
             drawable = drawableColorChange.getColorChangedDrawable();
             search.setImageDrawable(drawable);
 
             drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.ic_share_white_48dp, null);
             drawableColorChange.setDrawable(drawable);
             drawableColorChange.setColor(0xFFFF9800);   //Orange
-//            share.setImageDrawable(drawableColorChange.changeColor());
-            drawableColorChange.changeColor();
             share.setImageDrawable(drawableColorChange.getColorChangedDrawable());
 
             drawableColorChange.setColorResId(R.color.teal);
@@ -105,7 +102,6 @@ public class MainActivity extends AppCompatActivity {
 
             drawableColorChange.setDrawable(R.drawable.ic_favorite_white_48dp);
             drawableColorChange.setColorResId(R.color.red);
-            drawableColorChange.changeColor();
             bitmap = drawableColorChange.getColorChangedBitmap();
             favourite.setImageBitmap(bitmap);
 
@@ -121,7 +117,6 @@ public class MainActivity extends AppCompatActivity {
             bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_whatshot_white_48dp);
             drawableColorChange.setBitmap(bitmap);
             drawableColorChange.setColor(0xFFFF5722);   //Deep Orange
-            drawableColorChange.changeColor();
             whatshot.setImageBitmap(drawableColorChange.getColorChangedBitmap());
 
         } catch (NullPointerException e) {

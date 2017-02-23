@@ -1,9 +1,9 @@
 # DrawableColorChange
 Android Library to change drawable color dynamically
 
-[![](https://jitpack.io/v/mathiazhagan01/DrawableColorChange.svg)](https://jitpack.io/#mathiazhagan01/DrawableColorChange) 
+[![](https://jitpack.io/v/mathiazhagan01/DrawableColorChange.svg)](https://jitpack.io/#mathiazhagan01/DrawableColorChange)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-DrawableColorChange-blue.svg?style=flat-square)](http://android-arsenal.com/details/3/4353) 
-<a href="http://www.methodscount.com/?lib=com.github.mathiazhagan01%3ADrawableColorChange%3A1.2"><img src="https://img.shields.io/badge/Methods and size-core: 22 | 17 KB-e91e63.svg"/></a>
+<a href="http://www.methodscount.com/?lib=com.github.mathiazhagan01%3ADrawableColorChange%3A1.3"><img src="https://img.shields.io/badge/Methods and size-core: 37 | deps: 19163 | 18 KB-e91e63.svg"/></a>
 [![](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=b)](https://ko-fi.com/A8817MW)
 
 ### Gradle
@@ -20,7 +20,7 @@ Android Library to change drawable color dynamically
 #### Step 2. Add the dependency
     
     dependencies {
-	        compile 'com.github.mathiazhagan01:DrawableColorChange:1.2'
+	        compile 'com.github.mathiazhagan01:DrawableColorChange:1.3'
 	  }
 	  
 ### Maven
@@ -39,7 +39,7 @@ Android Library to change drawable color dynamically
 	  <dependency>
 	      <groupId>com.github.mathiazhagan01</groupId>
 	      <artifactId>DrawableColorChange</artifactId>
-	      <version>1.2</version>
+	      <version>1.3</version>
 	  </dependency>
 
 ### Before changing color

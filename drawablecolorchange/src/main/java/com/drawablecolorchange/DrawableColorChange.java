@@ -58,7 +58,7 @@ public class DrawableColorChange {
         }
     }
 
-    public void changeColor() {
+    private void changeColor() {
         if (drawable == null) {
             throw new NullPointerException("Drawable is null. Please set drawable by setDrawable() or setBitmap() method");
         }
@@ -88,6 +88,7 @@ public class DrawableColorChange {
         if (color == null) {
             throw new NullPointerException("Color is null. Please set color by setColor() or setColorResID() method");
         }
+        changeColor();
         return drawableToBitmap();
     }
 

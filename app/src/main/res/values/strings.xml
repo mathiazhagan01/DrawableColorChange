@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DrawableColorChange</string>
+    <string name="change_color">Change Color</string>
+</resources>

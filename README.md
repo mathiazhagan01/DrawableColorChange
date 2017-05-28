@@ -7,6 +7,8 @@ Android Library to change drawable color dynamically
 [![Codix](https://codix.io/gh/badge/mathiazhagan01/DrawableColorChange)](https://codix.io/gh/repo/mathiazhagan01/DrawableColorChange)
 [![](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=b)](https://ko-fi.com/A8817MW)
 
+If you like the library, please rate us on <a href="https://codix.io/gh/repo/mathiazhagan01/DrawableColorChange">codix.io!</a>
+
 ### Gradle
 
 #### Step 1. Add the JitPack repository to your build file

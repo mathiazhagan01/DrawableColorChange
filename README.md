@@ -1,5 +1,5 @@
 # DrawableColorChange
-Android Library to change drawable color dynamically
+Android Library to dynamically change color of drawable. 
 
 [![](https://jitpack.io/v/mathiazhagan01/DrawableColorChange.svg)](https://jitpack.io/#mathiazhagan01/DrawableColorChange)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-DrawableColorChange-blue.svg?style=flat-square)](http://android-arsenal.com/details/3/4353) 

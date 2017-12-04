@@ -6,6 +6,7 @@ Android Library to dynamically change color of drawable.
 <a href="http://www.methodscount.com/?lib=com.github.mathiazhagan01%3ADrawableColorChange%3A1.4"><img src="https://img.shields.io/badge/Methods and size-core: 37 | deps: 19163 | 18 KB-e91e63.svg"/></a>
 [![Codix](https://codix.io/gh/badge/mathiazhagan01/DrawableColorChange)](https://codix.io/gh/repo/mathiazhagan01/DrawableColorChange)
 [![](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=b)](https://ko-fi.com/A8817MW)
+[![](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/@mathiazhagan01)
 
 If you like the library, please rate us on <a href="https://codix.io/gh/repo/mathiazhagan01/DrawableColorChange">codix.io!</a>
 
@@ -13,37 +14,46 @@ If you like the library, please rate us on <a href="https://codix.io/gh/repo/mat
 
 #### Step 1. Add the JitPack repository to your build file
   Add it in your root build.gradle at the end of repositories:
-    
-    allprojects {
+  
+``` gradle
+    	allprojects {
 		repositories {
 			...
 			maven { url "https://jitpack.io" }
 		  }
-	  }
+	}
+```
+
 #### Step 2. Add the dependency
-    
-    dependencies {
+
+``` gradle
+    	dependencies {
 	        compile 'com.github.mathiazhagan01:DrawableColorChange:1.4'
-	  }
-	  
+	}
+```
+
 ### Maven
 
 #### Step 1. Add the JitPack repository to your build file
 
-    <repositories>
+``` xml
+    	<repositories>
 		  <repository>
 		      <id>jitpack.io</id>
 		      <url>https://jitpack.io</url>
 		  </repository>
-	  </repositories>
-	  
+	</repositories>
+```
+	
 #### Step 2. Add the dependency
 	
+``` xml
 	  <dependency>
 	      <groupId>com.github.mathiazhagan01</groupId>
 	      <artifactId>DrawableColorChange</artifactId>
 	      <version>1.4</version>
 	  </dependency>
+```
 
 ### Before changing color
 
@@ -55,6 +65,7 @@ If you like the library, please rate us on <a href="https://codix.io/gh/repo/mat
 
 ### Example 1
   
+``` java
   	DrawableColorChange drawableColorChange = new DrawableColorChange(this);	
   
   	drawableColorChange.setDrawable(R.drawable.icon);
@@ -62,18 +73,23 @@ If you like the library, please rate us on <a href="https://codix.io/gh/repo/mat
   	Drawable drawable = drawableColorChange.getColorChangedDrawable();
   	ImageView imageView = (ImageView) findViewById(R.id.image);
   	imageView.setImageDrawable(drawable);
+```
   
 ### Example 2
   
+``` java
   	imageView.setImageDrawable(drawableColorChange.changeColorById(R.drawable.icon, R.color.colorAccent));
+```
 
 ### Example 3
-  
+
+``` java
   	drawableColorChange.setDrawable(R.drawable.icon);
 	drawableColorChange.setColorResId(R.color.colorAccent);
 	Bitmap bitmap = drawableColorChange.getColorChangedBitmap();
 	imageView.setImageBitmap(bitmap);
-  	
+```
+	
 ### LICENSE
 
 	DrawableColorChange library for Android

@@ -5,8 +5,6 @@ Android Library to dynamically change color of drawable.
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-DrawableColorChange-blue.svg?style=flat-square)](http://android-arsenal.com/details/3/4353) 
 <a href="http://www.methodscount.com/?lib=com.github.mathiazhagan01%3ADrawableColorChange%3A1.4"><img src="https://img.shields.io/badge/Methods and size-core: 37 | deps: 19163 | 18 KB-e91e63.svg"/></a>
 [![Codix](https://codix.io/gh/badge/mathiazhagan01/DrawableColorChange)](https://codix.io/gh/repo/mathiazhagan01/DrawableColorChange)
-[![](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=b)](https://ko-fi.com/A8817MW)
-[![](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/@mathiazhagan01)
 
 If you like the library, please rate us on <a href="https://codix.io/gh/repo/mathiazhagan01/DrawableColorChange">codix.io!</a>
 
